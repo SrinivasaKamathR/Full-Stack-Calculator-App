@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Calculastor</title>
+  </head>
+
+  <body>
+    <form action="submit" method="POST">
+      <label for="email">Enter your Email</label>
+      <input type="text" id="email" name="email" required="required" />
+      <label for="password">Enter your Password</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required="required"
+      />
+      <button type="submit" id="login-btn" class="sub-button">Login</button>
+      <p id="error"></p>
+      <a href="../html/signup.html" id="switch">New User - Sign Up</a>
+    </form>
+    <footer class="footer">
+      <ul class="footer-links">
+        <li>
+          <a class="footer-a" href="https://github.com/SrinivasaKamathR"
+            ><img src="../../Assets/github-big-logo.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a class="footer-a" href="https://twitter.com/"
+            ><img src="../../Assets/twitter.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a
+            class="footer-a"
+            href="https://www.linkedin.com/in/srinivas-kamath-r-b72837219/"
+            ><img src="../../Assets/linkedin.png" alt=""
+          /></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+    <script src="../js/login.js"></script>
+  </body>
+</html>
